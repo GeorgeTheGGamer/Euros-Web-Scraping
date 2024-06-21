@@ -12,3 +12,6 @@ data.text
 from bs4 import BeautifulSoup
 
 soup = BeautifulSoup(data.text)
+#passing in our html data to the beautiful soup class 
+
+standings_table = soup.select()
